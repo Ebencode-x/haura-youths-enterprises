@@ -31,8 +31,9 @@
   </nav>
 
   <!-- PAGE HERO -->
-  <header class="page-hero" aria-labelledby="page-title">
-    <div class="page-hero__inner">
+  <header class="page-hero" aria-labelledby="page-title" style="background-image: url('https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1400&q=80'); background-size: cover; background-position: center; position: relative;">
+  <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(15,23,42,0.92) 0%,rgba(15,23,42,0.75) 60%,rgba(2,132,199,0.18) 100%);"></div>
+    <div class="page-hero__inner" style="position:relative;z-index:1;">
       <p class="page-hero__breadcrumb">
         <a href="index.html">Home</a> &nbsp;|&nbsp; Graphics Design &amp; IT
       </p>
@@ -60,6 +61,7 @@
         <!-- 1. Banners -->
         <article class="service-block reveal reveal-delay-1">
           <div class="service-block__icon-wrap" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=600&q=80" alt="Banner design" loading="lazy"/>
             <svg class="service-block__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <rect x="3" y="3" width="18" height="10" rx="2"/>
               <path d="M3 21l18-8"/>
@@ -80,6 +82,7 @@
         <!-- 2. Flyers -->
         <article class="service-block reveal reveal-delay-2">
           <div class="service-block__icon-wrap" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&q=80" alt="Flyer design" loading="lazy"/>
             <svg class="service-block__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
               <polyline points="14 2 14 8 20 8"/>
@@ -103,6 +106,7 @@
         <!-- 3. Posters -->
         <article class="service-block reveal reveal-delay-3">
           <div class="service-block__icon-wrap" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80" alt="Poster design" loading="lazy"/>
             <svg class="service-block__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
               <circle cx="8.5" cy="8.5" r="1.5"/>
@@ -124,6 +128,7 @@
         <!-- 4. Online Invitation Cards -->
         <article class="service-block reveal reveal-delay-4">
           <div class="service-block__icon-wrap" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=600&q=80" alt="Invitation card design" loading="lazy"/>
             <svg class="service-block__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <path d="M21 5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5z"/>
               <path d="M21 5l-9 7-9-7"/>
@@ -144,6 +149,7 @@
         <!-- 5. Logos -->
         <article class="service-block reveal reveal-delay-5">
           <div class="service-block__icon-wrap" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?w=600&q=80" alt="Logo design" loading="lazy"/>
             <svg class="service-block__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
             </svg>
@@ -163,6 +169,7 @@
         <!-- 6. IT Services -->
         <article class="service-block reveal reveal-delay-1">
           <div class="service-block__icon-wrap" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80" alt="IT Services" loading="lazy"/>
             <svg class="service-block__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
               <line x1="8" y1="21" x2="16" y2="21"/>
@@ -259,7 +266,7 @@
         <div>
           <h3 class="footer__col-title">Contact</h3>
           <div class="footer__contact-item">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="17" height="17" style="flex-shrink:0;margin-top:2px"><path fill="#0284C7" d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
             <a href="mailto:haurayouths@gmail.com">haurayouths@gmail.com</a>
           </div>
           <div class="footer__contact-item">
