@@ -71,7 +71,7 @@
   };
 
   const DELIVERY_FEE = 500;
-  const FREE_DELIVERY_THRESHOLD = 10;
+  const FREE_DELIVERY_THRESHOLD = 9;
 
   const inputs = document.querySelectorAll('.calc-item__input[data-item]');
   const totalEl = document.getElementById('total-price');
@@ -81,7 +81,7 @@
   if (!inputs.length || !totalEl) return;
 
   function formatTSh(amount) {
-    return 'TSh ' + amount.toLocaleString('en-TZ');
+    return 'TSH ' + amount.toLocaleString('en-TZ');
   }
 
   function calculate() {
