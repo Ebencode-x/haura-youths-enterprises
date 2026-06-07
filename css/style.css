@@ -1084,9 +1084,9 @@ h1, h2, h3, h4 {
 
 .calc-total-row .delivery-note {
   font-size: 0.72rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: #0284C7;
   font-family: var(--font-mono);
-  font-weight: 400;
+  font-weight: 700;
   display: block;
   text-align: right;
 }
